@@ -6,7 +6,7 @@ webshells, phishing, and malware delivery. Each entry represents a
 compromised host or URL observed at a specific point in time.
 Duplicate entries are generally avoided unless the compromise
 type, payload, infrastructure, or observed behavior has materially changed.
-Don't assume because you see it months prior that it isn't still compromised.
+Don't assume because you only see it months prior that it isn't still compromised.
 
 ## Purpose
 
