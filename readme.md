@@ -2,9 +2,11 @@
 
 A public dataset of websites compromised primarily for "cloaked gambling" 
 SEO abuse, along with other compromise types including link injection, 
-webshells, phishing, and malware delivery. I try to keep it free of
-duplicates unless something noteworthy has changed. Don't assume
-because you see it months prior that it isn't still compromised.
+webshells, phishing, and malware delivery. Each entry represents a
+compromised host or URL observed at a specific point in time.
+Duplicate entries are generally avoided unless the compromise
+type, payload, infrastructure, or observed behavior has materially changed.
+Don't assume because you see it months prior that it isn't still compromised.
 
 ## What is cloaked gambling compromise?
 
@@ -19,9 +21,19 @@ See `data/compromised-sites.csv`. Fields:
 - `entry_id` — Sequential number
 - `url` — The compromised URL
 - `urlscan_result` — Evidence link (urlscan.io scan)
-- `date_found` — When documented (YYYY-MM-DD)
+- `date_found` — Date the compromise was observed and recorded (YYYY-MM-DD)
 - `compromise_type` — Category of compromise
 - `notes` — Observations about the specific compromise
+
+## Compromise types:
+
+- cloaked_gambling — Gambling content selectively shown to crawlers or specific visitors.
+- gambling — Gambling content directly visible without cloaking.
+- link_injection — Injected SEO spam or unauthorized outbound links.
+- open_directory — Exposed directory listing containing sensitive or unexpected content.
+- phishing — Credential theft or impersonation content.
+- malware — Malware distribution or malicious downloads.
+- webshell — Presence of a remote administration or command execution script.
 
 ## Scale
 
