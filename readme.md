@@ -2,7 +2,9 @@
 
 A public dataset of websites compromised primarily for "cloaked gambling" 
 SEO abuse, along with other compromise types including link injection, 
-webshells, phishing, and malware delivery.
+webshells, phishing, and malware delivery. I try to keep it free of
+duplicates unless something noteworthy has changed. Don't assume
+because you see it months prior that it isn't still compromised.
 
 ## What is cloaked gambling compromise?
 
