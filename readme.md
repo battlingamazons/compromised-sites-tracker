@@ -8,6 +8,11 @@ Duplicate entries are generally avoided unless the compromise
 type, payload, infrastructure, or observed behavior has materially changed.
 Don't assume because you see it months prior that it isn't still compromised.
 
+## Purpose
+
+This is my on little project that blew up to the point where I figured
+I should put it here so it doesn't languish on my computer.
+
 ## What is cloaked gambling compromise?
 
 Legitimate websites are hacked and injected with code that serves Turkish 
