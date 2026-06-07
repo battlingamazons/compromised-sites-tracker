@@ -35,6 +35,12 @@ See `data/compromised-sites.csv`. Fields:
 - malware — Malware distribution or malicious downloads.
 - webshell — Presence of a remote administration or command execution script.
 
+## Data Quality
+
+Entries are reviewed for duplicate domains before publication.
+URLs are preserved as observed.
+Evidence links are retained whenever possible through urlscan.io permalinks.
+
 ## Scale
 
 This dataset currently documents over 2,700 entries from February–June 2026, 
@@ -50,9 +56,13 @@ urlscan.io permalinks.
 
 ## Reporting
 
-If you own a site listed here or have access to the levers of power to do
-something about these compromises, then please do--espeicaly the government
-and educational ones.
+If you own a listed site or are responsible for its administration,
+please investigate and remediate the compromise if it remains present.
+
+## Disclaimer
+
+While every effort is made to verify compromises before inclusion, errors are possible.
+Inclusion in this dataset should not be interpreted as evidence of negligence, intent, or current compromise status.
 
 ## License
 
