@@ -10,7 +10,7 @@ Don't assume because you only see it months prior that it isn't still compromise
 
 ## Purpose
 
-This is my on little project that blew up to the point where I figured
+This is my own little project that blew up to the point where I figured
 I should put it here so it doesn't languish on my computer. This is not
 meant to be fancy. I need to keep it simple so that I keep it up.
 
