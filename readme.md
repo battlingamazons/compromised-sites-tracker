@@ -24,7 +24,7 @@ See `data/compromised-sites.csv`. Fields:
 ## Scale
 
 This dataset currently documents over 2,700 entries from February–June 2026, 
-including sites from 80+ countries, government domains (.gov.bd, .gov.mx, 
+including sites from 80+ countries, government domains (.gov.bd, .gob.mx, 
 .gov.ph, .gov.br, etc.), educational institutions, and small businesses.
 I am just starting to put this into here. I will also be adding new entries.
 
