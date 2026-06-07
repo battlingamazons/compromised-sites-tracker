@@ -3,5 +3,5 @@ entry_id, url, urlscan_result, date_found, compromise_type, notes
 2733, https://robynbirkin.com/, https://urlscan.io/result/019ea36f-d482-735c-a10a-6f8446bcae5e/, 2026-06-06, cloaked_gambling, ""
 2734, https://ppbindonesia.com/, https://urlscan.io/result/019ea373-8ff6-76f8-9076-5e2a24c87f4e/, 2026-06-06, link_injection, ""
 2735, https://olympic2012.org/, https://urlscan.io/result/019ea386-7585-74e6-86a8-cb0c55eecbbc/, 2026-06-06, gambling, ""
-2736, https://mrsammonslaw.com/, https://urlscan.io/result/019ea38e-5aea-7738-81de-1dd8d234a20a/, 2026-06-06, open-directory, ""
+2736, https://mrsammonslaw.com/, https://urlscan.io/result/019ea38e-5aea-7738-81de-1dd8d234a20a/, 2026-06-06, open_directory, ""
 2737, https://captionglobe.com/amp.php, https://urlscan.io/result/019ea396-aa60-724e-a375-f31c8c241e36/, 2026-06-06, cloaked_gambling, ""
