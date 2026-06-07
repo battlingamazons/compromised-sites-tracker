@@ -15,7 +15,7 @@ I should put it here so it doesn't languish on my computer.
 
 ## What is cloaked gambling compromise?
 
-Legitimate websites are hacked and injected with code that serves Turkish 
+Legitimate websites are hacked and injected with code that serves 
 online gambling content (casino, slot, and betting sites) to search engine 
 crawlers while showing the normal site to regular visitors. This manipulates 
 search rankings for gambling keywords while evading detection.
