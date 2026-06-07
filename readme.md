@@ -17,7 +17,7 @@ search rankings for gambling keywords while evading detection.
 
 ## The Data
 
-See `data/compromised-sites.csv`. Fields:
+See `compromised-sites.csv`. Fields:
 - `entry_id` — Sequential number
 - `url` — The compromised URL
 - `urlscan_result` — Evidence link (urlscan.io scan)
