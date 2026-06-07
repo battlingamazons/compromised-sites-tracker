@@ -58,7 +58,7 @@ and will continue to receive new entries as additional compromises are identifie
 
 ## Methodology
 
-Sites are identified via urlscan.io scans using Googlebot user agent spoofing, 
+Sites are identified via urlscan.io scans using user agent spoofing, 
 Google Rich Results testing, and DOM analysis. Evidence is preserved as 
 urlscan.io permalinks.
 
