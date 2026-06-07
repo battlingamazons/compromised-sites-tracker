@@ -19,6 +19,7 @@ search rankings for gambling keywords while evading detection.
 
 See `compromised-sites.csv`. Fields:
 - `entry_id` — Sequential number
+- `hostname` — Exact hostname observed in the compromised URL
 - `url` — The compromised URL
 - `urlscan_result` — Evidence link (urlscan.io scan)
 - `date_found` — Date the compromise was observed and recorded (YYYY-MM-DD)
