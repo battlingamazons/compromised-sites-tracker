@@ -41,12 +41,19 @@ Entries are reviewed for duplicate domains before publication.
 URLs are preserved as observed.
 Evidence links are retained whenever possible through urlscan.io permalinks.
 
+## Limitations
+
+The presence of a site in this dataset indicates that a compromise was
+observed at the listed date. It does not indicate when the compromise
+began, whether it remains active, or the extent of the compromise.
+
 ## Scale
 
 This dataset currently documents over 2,700 entries from February–June 2026, 
 including sites from 80+ countries, government domains (.gov.bd, .gob.mx, 
 .gov.ph, .gov.br, etc.), educational institutions, and small businesses.
-I am just starting to put this into here. I will also be adding new entries.
+The repository is currently being populated from a larger collection
+and will continue to receive new entries as additional compromises are identified.
 
 ## Methodology
 
