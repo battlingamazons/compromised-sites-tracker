@@ -32,7 +32,7 @@ entry_id, hostname, url, urlscan_result, date_found, compromise_type, notes
 31, greatapetrust.org, https://greatapetrust.org/, https://urlscan.io/result/019c7d6f-415c-7710-b5e6-c51cef601b17/, 2026-02-20, cloaked_gambling, ""
 32, nycmoving.us, https://nycmoving.us/, https://urlscan.io/result/019c7d71-fb1b-7342-b7d3-59dfcf054364/, 2026-02-20, cloaked_gambling, ""
 33, iglesiarestauracion.net, https://iglesiarestauracion.net/, https://urlscan.io/result/019c7d7f-e6b3-74ef-89a5-fbce59ff8e09/, 2026-02-21, cloaked_gambling, ""
-34, npowerperformance.com, https://npowerperformance.com/, https://urlscan.io/result/019c7d83-96e2-704a-94b0-0b5f5f64e13c/, 2026-02-21, link_injection | gambling, ""
+34, npowerperformance.com, https://npowerperformance.com/, https://urlscan.io/result/019c7d83-96e2-704a-94b0-0b5f5f64e13c/, 2026-02-21, link_injection|gambling, ""
 NA, www.h-signature.com, https://www.h-signature.com/, https://urlscan.io/result/019ea359-5993-7248-b1c4-1dbccae83c74/, 2026-06-07, cloaked_gambling, ""
 NA, robynbirkin.com, https://robynbirkin.com/, https://urlscan.io/result/019ea36f-d482-735c-a10a-6f8446bcae5e/, 2026-06-07, cloaked_gambling, ""
 NA, ppbindonesia.com, https://ppbindonesia.com/, https://urlscan.io/result/019ea373-8ff6-76f8-9076-5e2a24c87f4e/, 2026-06-07, link_injection, ""
