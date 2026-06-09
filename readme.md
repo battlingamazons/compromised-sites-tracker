@@ -42,6 +42,7 @@ See `compromised-sites.csv`. Fields:
 - phishing — Credential theft or impersonation content.
 - malware — Malware distribution or malicious downloads.
 - webshell — Presence of a remote administration or command execution script.
+- c2_blockchain - Command & control via blockchain
 
 ## Data Quality
 
