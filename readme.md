@@ -36,6 +36,7 @@ See `compromised-sites.csv`. Fields:
 
 - cloaked_gambling — Gambling content selectively shown to crawlers or specific visitors.
 - gambling — Gambling content directly visible without cloaking.
+- cloaked_commerce - Commerce content selectively showen to crawlers or specific visitors.
 - link_injection — Injected SEO spam or unauthorized outbound links.
 - unauthorized_subdomain - Dangling subdomains and ones created explicitly for content unintended by the owners of the domain.
 - open_directory — Exposed directory listing containing sensitive or unexpected content.
