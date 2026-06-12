@@ -302,3 +302,5 @@ NA, dev.content.cognia.org, http://dev.content.cognia.org/, https://urlscan.io/r
 NA, connect.olgchs.org, http://connect.olgchs.org/?btwaf=62516795, https://urlscan.io/result/019ebd92-517f-730f-9d97-041a4783bee3/, 2026-06-12, unauthorized_subdomain|gambling, "There are way too many unauthorized subdomains serving gambling content under connect.olgchs.org to enumerate all of them here."
 NA, w196.worldvision.org, http://w196.worldvision.org/, https://urlscan.io/result/019ebd96-5a38-74ed-9de9-04b64f597d2a/, 2026-06-12, unauthorized_subdomain|gambling, "There are way too many unauthorized subdomains serving gambling content under w196.worldvision.org to enumerate all of them here."
 NA, staff.ncarb.org, http://staff.ncarb.org/?btwaf=83315076, https://urlscan.io/result/019ebd95-dc92-72e3-a96b-786ae3f89ea1/, 2026-06-12, unauthorized_subdomain|gambling, ""
+NA, diamondappliance.com, https://diamondappliance.com/, https://urlscan.io/result/019ebda9-eb32-76ba-b2f3-c655b9b19efb/, 2026-06-12, cloaked_gambling, ""
+NA, inklingmarketing.in, https://inklingmarketing.in/giris, https://urlscan.io/result/019ebdab-5f5b-7012-8a69-dca9dffa301c/, 2026-06-12, cloaked_gambling, ""
