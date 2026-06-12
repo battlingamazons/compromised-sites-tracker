@@ -197,5 +197,5 @@ NA, businessinspection.com.bd, https://businessinspection.com.bd/, https://urlsc
 NA, intercorpsa.com, https://intercorpsa.com/amp.php, https://urlscan.io/result/019eb946-0eb9-76a3-8e02-72088d8f35e0/, 2026-06-12, cloaked_gambling, ""
 NA, animbiz.com, https://animbiz.com/, https://urlscan.io/result/019eb94a-f28c-76d9-85a9-4a55b484bfc3/|https://urlscan.io/result/019eb94f-3c0c-7291-82df-fca914a9fb5d/, 2026-06-12, link_injection|cloaked_gambling, ""
 NA, robertmunsch.com, https://robertmunsch.com/, https://urlscan.io/result/019eb953-b5eb-73ef-b363-6dcf1a711308/, 2026-06-12, link_injection, "There's client-side javascript in the DOM that includes the call to update the links. The call is https://robertmunsch.com/wp-admin/admin-ajax.php?action=wpli_refresh_links"
-NA, www.mutuelle-miasc.fr, https://www.mutuelle-miasc.fr/, https://urlscan.io/result/019eb959-5db5-7182-b332-e73848cc066c/, link_injection, ""
-NA, sjps.edu.hk, https://sjps.edu.hk/, https://urlscan.io/result/019eb95b-00d3-7183-9366-47e556466cc4/, link_injection, ""
+NA, www.mutuelle-miasc.fr, https://www.mutuelle-miasc.fr/, https://urlscan.io/result/019eb959-5db5-7182-b332-e73848cc066c/, 2026-06-12, link_injection, ""
+NA, sjps.edu.hk, https://sjps.edu.hk/, https://urlscan.io/result/019eb95b-00d3-7183-9366-47e556466cc4/, 2026-06-12, link_injection, ""
