@@ -764,3 +764,5 @@ NA, autoseny.sk, https://autoseny.sk/giris, https://urlscan.io/result/019edd84-7
 NA, www.sfvimpex.com, https://www.sfvimpex.com/, https://urlscan.io/result/019ee138-097a-7666-baf8-270ea277ef53, 2026-06-19, cloaked_gambling, ""
 NA, suedu.online, https://suedu.online/, https://urlscan.io/result/019ee155-f2f3-767b-b41d-47e3a1a68270/, 2026-06-19, cloaked_gambling, ""
 NA, rubiksgift.com, https://www.rubiksgift.com/giris, https://urlscan.io/result/019ee282-bcda-72e4-8b0f-9b11fcd61c0e/, 2026-06-20, cloaked_gambling, ""
+NA, simplymind.com, https://www.simplymind.com/, https://urlscan.io/result/019ee36d-3ebf-742f-9864-892ca47f7d60/, 2026-06-20, link_injection, ""
+NA, www.prominentaustralia.com.au, https://www.prominentaustralia.com.au/|https://www.prominentaustralia.com.au/amp.php, https://urlscan.io/result/019ee369-ccc3-7668-9e78-c30eec84c53b/|https://urlscan.io/result/019ee37a-6f14-76f2-9389-712eed77d5cd/, 2026-06-20, link_injection|c2_blockchain|malware|cloaked_gambling, "Detonated on tria.ge: https://tria.ge/260620-fqkc3sev5s. Tria.ge session of malware dropped: https://tria.ge/260620-fvznkaev51"
