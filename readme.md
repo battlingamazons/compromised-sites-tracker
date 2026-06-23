@@ -40,7 +40,7 @@ See `compromised-sites.csv`. Fields:
 - link_injection — Injected SEO spam or unauthorized outbound links.
 - unauthorized_subdomain - Dangling subdomains and ones created explicitly for content unintended by the owners of the domain.
 - open_directory — Exposed directory listing containing sensitive or unexpected content.
-- phishing — Credential theft or impersonation content.
+- phishing — Credential theft or impersonation content, including injected code that harvests site owner credentials.
 - malware — Malware distribution or malicious downloads.
 - webshell — Presence of a remote administration or command execution script.
 - c2_blockchain - Command & control via blockchain
