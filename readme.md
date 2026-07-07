@@ -45,6 +45,48 @@ See `compromised-sites.csv`. Fields:
 - webshell — Presence of a remote administration or command execution script.
 - c2_blockchain - Command & control via blockchain
 
+## Wallet / C2 tracking (added July 2026)
+
+In addition to the main compromise log, this repo now includes two supplementary
+files tracking cryptocurrency wallets tied to a recurring blockchain-based C2
+scheme observed across many of the malware-flagged (`c2_blockchain|malware`)
+entries in the main log:
+
+- **`wallets.csv`** — the small, hand-maintained list of known operator/funding
+  wallet addresses. As of this writing there are only a handful of these, and
+  they appear to be reused heavily over long periods (likely over a year in at
+  least one case), in contrast to the "resolver contract" addresses associated
+  with each individual compromise, which appear to rotate frequently.
+- **`wallet_sightings.csv`** — an append-only log of individual domains where a
+  known wallet's associated smart contract was observed being called. Each row
+  links a domain + date to a wallet address, the resolver contract used at that
+  specific sighting, and (where available) a tria.ge detonation link.
+
+### Design notes / limitations
+
+- These files are linked to the main log by **domain name only**, not by row
+  number or any other index. Row numbers in the main log shift as older
+  entries are backfilled, so they are not a reliable key; domain names are
+  stable and can be located with a simple search.
+- `wallets.csv` records a `first_documented` date, which reflects the earliest
+  sighting *recorded in this dataset* — not necessarily the wallet's actual
+  first use. Reliable tracking of tria.ge detonation links only began around
+  2026-04-26, and wallet identification before that point was inconsistent, so
+  earlier activity by these same wallets almost certainly exists undocumented.
+- Where a single detonation drops multiple malware stages with their own
+  separate tria.ge sessions, `wallet_sightings.csv` includes only the primary
+  detonation link (the one that reveals the resolver contract / wallet). The
+  full set of related tria.ge sessions for a given finding remains documented
+  in the main log's notes field for that entry, to avoid turning this file
+  into another list-in-a-cell problem.
+- No malware samples, loader scripts, or manifests (e.g. the `css.js`-style
+  loaders used to reach these contracts) are included or will be included in
+  this repo, even for older/historical findings. Only the on-chain addresses
+  derived from analyzing that malware are published here.
+- Resolver contract addresses are *not* treated as durable identifiers and are
+  not deduplicated or tracked as their own entity — they are sighting-specific
+  detail, kept alongside the wallet sighting for context.
+
 ## Data Quality
 
 Entries are reviewed for duplicate domains before publication.
