@@ -1,0 +1,3 @@
+wallet_address, role, chain, first_documented, notes
+0xCaf2C54E400437da717cF215181B170F65187aBf, operator, unspecified, 2026-07-05, "Earliest documented sighting in this dataset. Believed to be the first wallet I identified, in early 2026, but I did not keep reliable records at the time and tria.ge use only began ~2026-04-26, so an exact first-use date is not known. Heavily reused across many unrelated compromised domains over a period the operator has likely run for over a year."
+0xD44a53c0d5Ab8E6C07cB20d482B3d2CB76029dd3, funding, unspecified, 2026-07-05, "Seen paired with 0xCaf2C5... as funding wallet. Same caveats on first-use date as above."
