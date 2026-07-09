@@ -11,3 +11,5 @@ wallet_address, role, first_documented, notes
 0x88bf9BFa64380B173170C21B0e13CB5135E198cF, funding, 2026-07-08, "Seen earlier, but documented now"
 0x6FCACA5958193e48Da350f568C28F034a9632454, funding, 2026-07-08, "Seen earlier, but documented now"
 0x36a6c7069a65214800Ba2cF1b376F6146D0461e4, funding, 2026-07-08, "Seen earlier, but documented now"
+0x25a7625b3c74bb0452333C8D7F463a2f640FA5aF, operator, 2026-07-09, ""
+0x5FD18549e89b3664dFd13184D751956DcbeaA820, funding, 2026-07-09, ""
