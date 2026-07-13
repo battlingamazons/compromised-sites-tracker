@@ -46,28 +46,50 @@ See `compromised-sites.csv`. Fields:
 - c2_blockchain - Command & control via blockchain
 
 ## Wallet / C2 tracking (added July 2026)
-
+ 
 In addition to the main compromise log, this repo now includes two supplementary
 files tracking cryptocurrency wallets tied to a recurring blockchain-based C2
 scheme observed across many of the malware-flagged (`c2_blockchain|malware`)
 entries in the main log:
-
-- **`wallets.csv`** — the small, hand-maintained list of known operator/funding
-  wallet addresses. As of this writing there are only a handful of these, and
-  they appear to be reused heavily over long periods (likely over a year in at
-  least one case), in contrast to the "resolver contract" addresses associated
-  with each individual compromise, which appear to rotate frequently.
+ 
+- **`wallets.csv`** — the small, hand-maintained list of known wallet addresses,
+  each tagged with a `role`:
+  - `operator` — the wallet observed deploying or calling a resolver contract
+    at a compromise site.
+  - `funding` — the wallet identified as having sent the operator wallet's
+    earliest known inbound transaction. This is based on my manual review of
+    on-chain transaction history for each operator wallet, not on any
+    additional evidence stored in this repo — the funding wallet's address and
+    the `chain` field (in `wallet_sightings.csv`) are enough to verify the
+    transaction yourself on the relevant block explorer.
+  - An operator wallet's `funded_by` column names its funding wallet, if
+    known. Funding wallets themselves have `funded_by = NA` — this reflects
+    that tracing hasn't been extended further upstream yet, not that no such
+    wallet exists. A wallet can hold both roles across different rows (e.g.
+    it may fund other operators while itself having been funded by another
+    wallet), so `wallet_address` alone is not a unique key — use
+    `wallet_address` + `role`.
+  - Operator/funding wallets appear reused heavily over long periods (likely
+    over a year in at least one case), in contrast to the resolver contract
+    addresses associated with each individual compromise, which appear to
+    rotate frequently.
 - **`wallet_sightings.csv`** — an append-only log of individual domains where a
-  known wallet's associated smart contract was observed being called. Each row
-  links a domain + date to a wallet address, the resolver contract used at that
-  specific sighting, and (where available) a tria.ge detonation link.
-
+  known operator wallet's associated smart contract was observed being
+  called. Each row links a domain + date to an operator wallet address, the
+  resolver contract used at that specific sighting, and (where available) a
+  tria.ge detonation link. Funding relationships are not repeated here; see
+  `wallets.csv` for the funding wallet tied to a given operator.
+  
 ### Design notes / limitations
-
+ 
 - These files are linked to the main log by **domain name only**, not by row
   number or any other index. Row numbers in the main log shift as older
   entries are backfilled, so they are not a reliable key; domain names are
   stable and can be located with a simple search.
+- A single domain and date may have more than one operator/resolver pair
+  logged in `wallet_sightings.csv` if multiple campaigns were observed there
+  (e.g. two unrelated resolver contracts called from the same compromised
+  site). Don't assume domain + date is a unique key.
 - `wallets.csv` records a `first_documented` date, which reflects the earliest
   sighting *recorded in this dataset* — not necessarily the wallet's actual
   first use. Reliable tracking of tria.ge detonation links only began around
@@ -86,6 +108,10 @@ entries in the main log:
 - Resolver contract addresses are *not* treated as durable identifiers and are
   not deduplicated or tracked as their own entity — they are sighting-specific
   detail, kept alongside the wallet sighting for context.
+- This is an early, actively-changing part of the dataset. Funding
+  attributions reflect my best manual review at time of writing and have not
+  been independently verified beyond that; treat them as an analyst judgment
+  call.
 
 ## Data Quality
 
