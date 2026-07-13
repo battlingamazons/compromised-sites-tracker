@@ -6,7 +6,6 @@ wallet_address, role, first_documented, notes
 0x460597A2Fd0Cd963f3c0575Ff44f1C14BC59839c, operator, 2026-07-08, "Seen earlier, but documented now"
 0x34c15320d6E8f59f1b66f6c191Aaa7F87B894B66, operator, 2026-07-08, "Seen earlier, but documented now"
 0xa70B18ebb5C1cF9Ee533A019975F09Aed4d276b5, operator, 2026-07-08, "Seen earlier, but documented now"
-0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2, operator, 2026-07-08, "Seen earlier, but documented now"
 0xCaf2C54E400437da717cF215181B170F65187aBf, funding, 2026-07-08, "Seen earlier, but documented now. This wallet does double duty as an operator and funder of several wallets."
 0x88bf9BFa64380B173170C21B0e13CB5135E198cF, funding, 2026-07-08, "Seen earlier, but documented now"
 0x6FCACA5958193e48Da350f568C28F034a9632454, funding, 2026-07-08, "Seen earlier, but documented now"
