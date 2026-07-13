@@ -1,5 +1,5 @@
 wallet_address, role, funded_by, first_documented, notes
-0xCaf2C54E400437da717cF215181B170F65187aBf, operator, 0xD44a53c0d5Ab8E6C07cB20d482B3d2CB76029dd3, 2026-07-05, "Earliest documented sighting in this dataset. Believed to be the first wallet I identified, in early 2026, but I did not keep reliable records at the time and tria.ge use only began ~2026-04-26, so an exact first-use date is not known. Heavily reused across many unrelated compromised domains over a period the operator has likely run for over a year."
+0xCaf2C54E400437da717cF215181B170F65187aBf, operator, 0xD44a53c0d5Ab8E6C07cB20d482B3d2CB76029dd3, 2026-03-13, "Earliest documented sighting in this dataset. Believed to be the first wallet I identified. I started using tria.ge ~2026-04-26, so there's no entry for it. Heavily reused across many unrelated compromised domains over a period the operator has likely run for over a year."
 0xD44a53c0d5Ab8E6C07cB20d482B3d2CB76029dd3, funding, NA, 2026-07-05, "Seen paired with 0xCaf2C5... as funding wallet. Same caveats on first-use date as above."
 0xb0425bF235A2275735C8C5d668Aa0273C65970b9, operator, 0xCaf2C54E400437da717cF215181B170F65187aBf, 2026-07-08, "Seen earlier, but documented now"
 0xf1940DDBDA56074ce29bB0b6eA8D62db974870a5, operator, 0xCaf2C54E400437da717cF215181B170F65187aBf, 2026-07-08, "Seen earlier, but documented now"
