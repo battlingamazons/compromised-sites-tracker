@@ -45,40 +45,47 @@ See `compromised-sites.csv`. Fields:
 - webshell — Presence of a remote administration or command execution script.
 - c2_blockchain - Command & control via blockchain
 
-## Wallet / C2 tracking (added July 2026)
- 
-In addition to the main compromise log, this repo now includes two supplementary
-files tracking cryptocurrency wallets tied to a recurring blockchain-based C2
-scheme observed across many of the malware-flagged (`c2_blockchain|malware`)
-entries in the main log:
- 
-- **`wallets.csv`** — the small, hand-maintained list of known wallet addresses,
-  each tagged with a `role`:
-  - `operator` — the wallet observed deploying or calling a resolver contract
-    at a compromise site.
-  - `funding` — the wallet identified as having sent the operator wallet's
-    earliest known inbound transaction. This is based on my manual review of
-    on-chain transaction history for each operator wallet, not on any
-    additional evidence stored in this repo — the funding wallet's address and
-    the `chain` field (in `wallet_sightings.csv`) are enough to verify the
-    transaction yourself on the relevant block explorer.
-  - An operator wallet's `funded_by` column names its funding wallet, if
-    known. Funding wallets themselves have `funded_by = NA` — this reflects
-    that tracing hasn't been extended further upstream yet, not that no such
-    wallet exists. A wallet can hold both roles across different rows (e.g.
-    it may fund other operators while itself having been funded by another
-    wallet), so `wallet_address` alone is not a unique key — use
-    `wallet_address` + `role`.
+### Wallet / C2 tracking (added July 2026, updated July 2026)
+
+In addition to the main compromise log, this repo now includes two
+supplementary files tracking cryptocurrency wallets tied to a recurring
+blockchain-based C2 scheme observed across many of the malware-flagged
+(`c2_blockchain|malware`) entries in the main log:
+
+* `wallets.csv` — the small, hand-maintained list of known wallet and
+  contract addresses in the funding chain, each tagged with a `role`:
+  - `operator` — the address observed deploying or calling a resolver
+    contract at a compromise site.
+  - `funding` — the address identified as having sent the operator (or
+    another funding address's) earliest known inbound transaction. This is
+    based on my manual review of on-chain transaction history, not on any
+    additional evidence stored in this repo — the address and the `chain`
+    field (in `wallet_sightings.csv`) are enough to verify the transaction
+    yourself on the relevant block explorer.
+  - An address's `funded_by` column names whatever funded it, if known, and
+    `funder_type` records whether that funder is a `wallet` or a `contract`.
+    Some operator wallets turn out to be funded not directly by a wallet but
+    by a disperser/paymaster contract; in that case the contract gets its
+    own row (role `funding`, with its own `funded_by` naming the wallet
+    behind it) so the chain can be walked hop by hop instead of collapsed
+    into one link. I don't trace further upstream than the first wallet I
+    reach — rows with `funded_by = NA` mark that stopping point, not that no
+    earlier funder exists.
+  - A wallet can hold both roles across different rows (e.g. it may fund
+    other operators while itself having been funded by another wallet), so
+    `wallet_address` alone is not a unique key — use `wallet_address` +
+    `role`.
   - Operator/funding wallets appear reused heavily over long periods (likely
     over a year in at least one case), in contrast to the resolver contract
     addresses associated with each individual compromise, which appear to
-    rotate frequently.
-- **`wallet_sightings.csv`** — an append-only log of individual domains where a
+    rotate frequently. Funding-chain contracts (like disperser/paymaster
+    contracts) appear to persist as well, distinct from resolver contracts.
+* `wallet_sightings.csv` — an append-only log of individual domains where a
   known operator wallet's associated smart contract was observed being
   called. Each row links a domain + date to an operator wallet address, the
   resolver contract used at that specific sighting, and (where available) a
   tria.ge detonation link. Funding relationships are not repeated here; see
-  `wallets.csv` for the funding wallet tied to a given operator.
+  `wallets.csv` for the funding chain tied to a given operator.
   
 ### Design notes / limitations
  
