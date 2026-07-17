@@ -134,7 +134,7 @@ began, whether it remains active, or the extent of the compromise.
 
 ## Scale
 
-This dataset currently documents over 2,700 entries from February–June 2026, 
+This dataset currently documents over 2,700 entries from February–July 2026, 
 including sites from 120+ countries, government domains (.gov.bd, .gob.mx, 
 .gov.ph, .gov.br, etc.), educational institutions, and small businesses.
 The repository is currently being populated from a larger collection
