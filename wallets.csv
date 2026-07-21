@@ -16,3 +16,5 @@ wallet_address, role, funder_type, funded_by, first_documented, notes
 0xfd32AAeA15C49dC96148f2C9d1d84C93Ae7A98Bc, funding, wallet, NA, 2026-07-10, "Note to self and others: Keep an eye out for more evidence than is listed in the compromised-sites.csv. I'm comfortable with them being here, but really want more."
 0x2c9dDF1De622dA1997613Cf0498fF8Bd1E6833E9, operator, contract, 0x7150ea07D00d8E5a46bcC809f1c9FDf5cb5f8E81, 2026-07-15, "This is the first time I've encountered a wallet funded by a contract, so I added a new column to say whether it's a wallet or a contract."
 0xEf37aD2BACD70119F141140f7B5E46Cd53a65fc4, funding, wallet, NA, 2026-07-15, "This is the first time I've encountered a wallet funded by a contract, so I added a new column to say whether it's a wallet or a contract. So, I took it up one more to get an actual wallet."
+0xd71f4cdC84420d2bd07F50787B4F998b4c2d5290, operator, wallet, NA, 2026-07-21, ""
+0xAf7bAA118de56fB6F652B9E880211f03c928d2E1, funding, wallet, NA, 2026-07-21, ""
