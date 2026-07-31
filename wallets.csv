@@ -18,3 +18,5 @@ wallet_address, role, funder_type, funded_by, first_documented, notes
 0xEf37aD2BACD70119F141140f7B5E46Cd53a65fc4, funding, wallet, NA, 2026-07-15, "This is the first time I've encountered a wallet funded by a contract, so I added a new column to say whether it's a wallet or a contract. So, I took it up one more to get an actual wallet."
 0xd71f4cdC84420d2bd07F50787B4F998b4c2d5290, operator, wallet, 0xAf7bAA118de56fB6F652B9E880211f03c928d2E1, 2026-07-21, ""
 0xAf7bAA118de56fB6F652B9E880211f03c928d2E1, funding, wallet, NA, 2026-07-21, ""
+0x09813eF4Ab9a7361A8D0455d57E9a81295dae5F8, operator, wallet, 0xaa25Aa7a19f9c426E07dee59b12f944f4d9f1DD3, 2026-07-31, ""
+0xaa25Aa7a19f9c426E07dee59b12f944f4d9f1DD3, funding, wallet, NA, 2026-07-31, ""
