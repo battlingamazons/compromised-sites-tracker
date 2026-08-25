@@ -30,3 +30,4 @@ wallet_address, role, funder_type, funded_by, first_documented, notes
 0xf3d63166F0Ca56C3c1A3508FcE03Ff0Cf3Fb691e, funding, wallet, NA, 2026-08-10, "The wallet that funded the contract 0xb92fe925DC43a0ECdE6c8b1a2709c170Ec4fFf4f"
 0x2F9091AB4Ec91c0dAa67a7660c81A922328A8096, operator, wallet, 0x71d4249079684479F2651745fA2fcD79c9b45f53, 2026-08-25, ""
 0x71d4249079684479F2651745fA2fcD79c9b45f53, funding, wallet, NA, 2026-08-25, ""
+0x9736d115fD959e3eb68c4f4d64F916e6b43cb368, operator, contract, 0xb92fe925DC43a0ECdE6c8b1a2709c170Ec4fFf4, 2026-08-25, "Wallet funded by a contract. Funded by 0xf3d63166F0Ca56C3c1A3508FcE03Ff0Cf3Fb691e which is already in this file."
