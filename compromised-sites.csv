@@ -2566,3 +2566,4 @@ NA, birthmarque.com, https://birthmarque.com/, https://urlscan.io/result/01a0496
 NA, trure.com, https://trure.com/giris, https://urlscan.io/result/01a0497d-b7e3-74ac-8ddd-d2aa5b4ce00e/, 2026-08-28, cloaked_gambling, ""
 NA, masstudio.in, https://masstudio.in/, https://urlscan.io/result/01a04aa4-b3ee-77aa-9894-5fbecf682b6b/, 2026-08-28, malware, "Redirects to https://hashedsolver.icu/verification/check.php where it installs a crypto miner"
 NA, myoglocker.com, http://myoglocker.com/, https://urlscan.io/result/01a04acc-ed07-75d8-b18f-043ecfbf8940/, 2026-08-28, malware, "Redirects to https://hashedsolver.icu/verification/check.php where it installs a crypto miner"
+NA, www.zmenadodavatela.sk, https://www.zmenadodavatela.sk/, https://urlscan.io/result/01a04aff-8907-776b-b8c2-6caef05e9e23/, 2026-08-29, c2_blockchain|malware, "Detonatd on tria.ge: https://tria.ge/260829-bd2pdavvb1/. Resolver contract: 0xB6bC9e1D0b2fB96Ab7C47E04Cb0BE477410bC1f2"
