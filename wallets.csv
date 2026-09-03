@@ -37,3 +37,5 @@ wallet_address, role, funder_type, funded_by, first_documented, notes
 0x858B6eB3523478E216a4404Fc1AF9c7Cd47CDB8B, funding, wallet, NA, 2026-09-02, ""
 0xd7d0b350291eA7c16DC864563BC1BCaEA0fB0949, operator, wallet, 0xa85C29b94F8A22A7268FaceE89ef4EcA051be2ce, 2026-09-02, ""
 0xa85C29b94F8A22A7268FaceE89ef4EcA051be2ce, funding, wallet, NA, 2026-09-02, ""
+0x04fdcebc5d10b562a69867275d99094f57489ce6, operator, wallet, 0xfd32AAeA15C49dC96148f2C9d1d84C93Ae7A98Bc, 2026-09-02, ""
+0xfd32AAeA15C49dC96148f2C9d1d84C93Ae7A98Bc, funding, wallet, NA, 2026-09-02, ""
